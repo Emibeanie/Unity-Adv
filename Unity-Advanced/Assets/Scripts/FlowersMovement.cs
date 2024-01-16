@@ -11,6 +11,7 @@ public class FlowersMovement : MonoBehaviour
 
     void Start()
     {
+        transform.position = destinations[0].position;
         ShuffleDestinations();
         SetNextDestination();
     }
