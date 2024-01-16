@@ -516,10 +516,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 355214305}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 774e97f97ef9d9545b2b47bc7677f8a2,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 355214309}
   m_SourcePrefab: {fileID: 100100000, guid: 774e97f97ef9d9545b2b47bc7677f8a2, type: 3}
 --- !u!1 &355214303 stripped
 GameObject:
@@ -568,27 +564,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 355214302}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &355214309
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 355214303}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 0.6635363, y: 0.5942039, z: 0.64690006}
-  m_Center: {x: 0.000000044703484, y: -0.20263293, z: 0.016850099}
 --- !u!1 &365510191
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,10 +1047,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 570318559}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: bbc48832aa6afb249b9b60c98b295810,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 570318563}
   m_SourcePrefab: {fileID: 100100000, guid: bbc48832aa6afb249b9b60c98b295810, type: 3}
 --- !u!1 &570318557 stripped
 GameObject:
@@ -1124,27 +1095,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 570318556}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &570318563
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 570318557}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 0.6635363, y: 0.5942039, z: 0.64690006}
-  m_Center: {x: 0.000000044703484, y: -0.20263293, z: 0.016850099}
 --- !u!1 &571381136
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,7 +1139,6 @@ GameObject:
   - component: {fileID: 579671315}
   - component: {fileID: 579671314}
   - component: {fileID: 579671313}
-  - component: {fileID: 579671318}
   - component: {fileID: 579671319}
   m_Layer: 0
   m_Name: Ground And Navmesh
@@ -1316,27 +1265,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &579671318
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 579671312}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 10, y: 2.220446e-16, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!191 &579671319
 OffMeshLink:
   m_ObjectHideFlags: 0
