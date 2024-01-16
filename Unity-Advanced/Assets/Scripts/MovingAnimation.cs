@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MovingAnimation : StateMachineBehaviour
@@ -10,10 +8,10 @@ public class MovingAnimation : StateMachineBehaviour
     //    
     //}
 
-     //OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
+    //OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        
+
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
